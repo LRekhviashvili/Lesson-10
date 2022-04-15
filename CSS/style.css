@@ -1,0 +1,80 @@
+.header-image {
+    max-width: 1366px;
+    width: 100%;
+    height: 324px;
+    background-color: aqua;
+}
+
+.header {
+    padding-bottom: 50px;
+}
+.map-section {
+    margin: 0 auto;
+    max-width: 1088px;
+    width: 100%;
+    margin-bottom: 90px;
+
+}
+.map{
+    margin-top: 50px;
+    margin-bottom: 56px;
+}
+.contact-section {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 100%;
+}
+.text-contact{
+    max-width: 438px;
+    width: 100%;
+    height: 115px;
+}
+.contact-title1 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5863F8;
+}
+
+.contact-title2 {
+    font-size: 42px;
+    color: #000000;
+    font-weight: bolder;
+    max-width: 378px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#message {
+    width: 720px;
+    height: 288px;
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+    padding: 20px;
+    margin-right: 20px;
+    resize: none;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+}
+.right-form {
+   display: flex;
+   flex-direction: column;
+}
+.input {
+    width: 352px;
+    height: 60px;
+    margin-bottom: 16px;
+    padding: 20px;
+    font-size: 13px;
+    color: #5863F8; 
+    background-color: #F8F8F8;
+    border: 2px solid #E8E8E8;
+}
+.btn{
+    background-color: #5863F8;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.input::placeholder {
+    color: rgb(8, 12, 12);
+}

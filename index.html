@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-image"></div>
+    </header> 
+    <section class="map-section">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.1113938436133!2d-80.83718058526706!3d35.228596962270686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a022d78b3de7%3A0x9f5c6731be8cbf86!2sUNC%20Charlotte%20Center%20City!5e0!3m2!1ska!2sge!4v1649106686064!5m2!1ska!2sge"
+                width="1088" height="286" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>   
+        <h5 class="contact-title1">contact</h5>
+        <h2 class="contact-title2">Contact us to get free support</h2>
+        <form action="form"> 
+            <div class="form">
+            <div class="left-form">
+                 <label for="message"></label>
+                 <textarea id="message" name="message" placeholder="Description"></textarea>
+            </div>
+            <div class="right-form">
+                <label for="subject"></label>
+                <input class="input"type="text" id="subject" name="subject" placeholder="subject"> 
+                <label for="Name/Surname"></label>
+                <input class="input" type="text" id="Name/Surname" name="Name/Surnam" placeholder="Name/Surnam">  
+                <label for="Email"></label>
+                <input class="input" type="text" id="Email" name="Email" placeholder="Email">
+                <input class="input btn" type="submit" value="Send">
+            </div>
+            </div>
+        </form>
+    </section>
+    
+</body>
+</html>
