@@ -1,8 +1,23 @@
+body html{
+    width: 100%;
+}
 .header-image {
-    max-width: 1366px;
+    background-image: url("../images/header-image.png");
     width: 100%;
     height: 324px;
-    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header-image::before {
+    content:"";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #000000;
+    opacity: 60%
+
+
 }
 
 .header {
