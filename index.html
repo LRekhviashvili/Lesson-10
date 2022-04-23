@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/reset.css">
 </head>
@@ -19,7 +20,7 @@
                         <a class="li active" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_display_inline_list">Home</a>
                     </li>
                     <li>
-                        <a class="li" href="#">Rooms</a>
+                        <a class="li rooms" href="#">Rooms</a>
                     </li>
                     <li>
                         <a class="li" href="#">Restaurant</a>
@@ -69,34 +70,36 @@
                 <input class="input" type="text" id="Name/Surname" name="Name/Surnam" placeholder="Name/Surname">  
                 <label for="Email"></label>
                 <input class="input" type="text" id="Email" name="Email" placeholder="Email">
-                <input class="input btn" type="submit" value="Send">
+                <div class="send-block">
+                <button class="btn"> Send <i class="fa-solid fa-location-arrow"></i></button>
+            </div>
             </div>
             </div>
         </form>
         <div class="contact">
         <div class="email-div">
                 <div class="blue-icon">
-                    <img class="mail" src="images/mail.png" alt="mail">
+                    <i class="fa-regular fa-envelope"></i>
                 </div>
-                <h5 class="contact-title"> Email</h5>
+                <h5 class="contact-title">Email</h5>
                 <p class="contact-text">example@yahoo.com </p>
                 <p class="contact-text">exampleemail2@yahoo.com</p>
             </div>
             <div class="email-div">
                 <div class="blue-icon">
-                    <img class="mail" src="images/mail.png" alt="mail">
+                    <i class="fa-regular fa-phone"></i>
                 </div>
-                <h5 class="contact-title"> Email</h5>
-                <p class="contact-text">example@yahoo.com </p>
-                <p class="contact-text">exampleemail2@yahoo.com</p>
+                <h5 class="contact-title">Phone</h5>
+                <p class="contact-text">+0 320 422 4254</p>
+                <p class="contact-text">+0 342 552 523</p>
             </div>
             <div class="email-div">
                 <div class="blue-icon">
-                    <img class="mail" src="images/mail.png" alt="mail">
+                    <i class="fa-regular fa-location-pin"></i>
                 </div>
-                <h5 class="contact-title"> Email</h5>
-                <p class="contact-text">example@yahoo.com </p>
-                <p class="contact-text">exampleemail2@yahoo.com</p>
+                <h5 class="contact-title">Location</h5>
+                <p class="contact-text">Main Str Chicago Ilinois</p>
+                <p class="contact-text">Main Street New York City</p>
             </div>
         </div>
         <h5 class="contact-title1">Photos</h5>
@@ -112,27 +115,58 @@
        <div class="footer"> 
            <div class="sth">
            <div class="logos">    
-            <p> Zetta Hotels </p>
-            <p>Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+            <p class="Zetta-footer"> Zetta Hotels </p>
+            <p class="ourhotel-footer">Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+            <div class="icons">
+                <div class="social-icons facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="social-icons twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="social-icons google">
+                    <i class="fa-brands fa-google-plus-g"></i>
+                </div>
+            </div>
         </div>
         <div class="links">    
-            <p> Zetta Hotels </p>
-            <p>Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
-            
+            <p class="h3"> Useful links </p>
+            <div  class="useful-links">
+                    <a class="link-word" href="#">Blog</a>
+                    <a class="link-word" href="#">Rooms</a>
+                    <a class="link-word" href="#">Gift Card</a>
+                    <a class="link-word" href="#">Testimonials</a>
+                </div>
+                </div>
+        <div class="links">    
+            <p class="h3">Privacy</p>
+            <div  class="useful-links">
+                <a class="link-word" href="#">Career</a>
+                <a class="link-word" href="#">About Us</a>
+                <a class="link-word" href="#">Contact Us</a>
+                <a class="link-word" href="#">Services</a>
+            </div>
         </div>
         <div class="links">    
-            <p> Zetta Hotels </p>
-            <p>Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
-            
-        </div>
-        <div class="links">    
-            <p> Zetta Hotels </p>
-            <p>Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+            <p class="h3"> Contact Info </p>
+            <div  class="useful-links">
+                <div class="contact-icons">
+                    <i class="fa-regular fa-envelope"></i>
+                <p class="white" href="#">example@yahoo.com</p></div>
+                <div class="contact-icons">
+                    <i class="fa-regular fa-phone"></i>
+                <p class="white" href="#">+0 320 422 4254</p></div>
+                <div class="contact-icons">
+                    <i class="fa-regular fa-location-dot"></i>
+                <p class="white" href="#">Main Str Chicago Ilinois</p></div>
+            </div>
     </div>
     </div>
-    <div class="copyright">  
-        <p class=""> Copyright©2020 All rights reserved | This template is made with love by Marian </p>
-        <p class="link">www.portfolioname.com</p>
+    <div class="copyright">
+        <p class="copyright-p">Copyright ©2020 All rights reserved | This template is made with love by
+            <span>Marian</span>
+        </p>
+        <a class="web" href="www.portfolioname.com"> www.portfolioname.com</a>
     </div>
     </div>
 
