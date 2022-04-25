@@ -153,8 +153,8 @@ body html{
 
 .images{
     display: flex;
-    max-width: 1366px;
     width: 100%;
+    flex-direction: row;
     justify-content: space-between;
 }
 
